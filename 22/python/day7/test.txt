@@ -1,0 +1,19 @@
+$ cd /
+100 aaa
+120 bcd
+30 tt
+dir bd
+$ cd bd
+560 ee
+890 dsd
+dir yy
+dir oo
+$ cd yy
+6 jknds
+$ cd ..
+$ cd oo
+1 ppq
+25 lds
+dir uu
+$ cd uu
+55 jj
