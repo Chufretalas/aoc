@@ -30,7 +30,7 @@ func D1P1() {
 	slices.Sort(l2)
 
 	sum := 0
-	for i, _ := range l1 {
+	for i := range l1 {
 		diff := l1[i] - l2[i]
 		sum += int(math.Abs(float64(diff)))
 	}
