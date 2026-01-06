@@ -57,7 +57,7 @@ defmodule Days.Day04 do
     rolls =
       for l <- 0..(num_lines - 1),
           c <- 0..(num_cols - 1),
-          puzzle[{l, c}] == "@" && isAccessible?(num_lines, num_lines, puzzle, l, c),
+          puzzle[{l, c}] == "@" && isAccessible?(num_lines, num_cols, puzzle, l, c),
           do: {l, c}
 
     removed_rolls = length(rolls)
