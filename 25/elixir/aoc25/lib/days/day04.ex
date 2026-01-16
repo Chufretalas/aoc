@@ -1,4 +1,4 @@
-defmodule Days.Day04 do
+defmodule Aoc25.Day04 do
   def part1() do
     {num_lines, num_cols, puzzle} =
       File.stream!("inputs/day04.txt")

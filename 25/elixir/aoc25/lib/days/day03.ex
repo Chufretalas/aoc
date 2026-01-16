@@ -1,4 +1,4 @@
-defmodule Days.Day03 do
+defmodule Aoc25.Day03 do
   def part1() do
     File.stream!("inputs/day03.txt")
     |> Stream.map(&String.trim/1)

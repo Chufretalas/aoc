@@ -1,4 +1,4 @@
-defmodule Days.Day02 do
+defmodule Aoc25.Day02 do
   def part1() do
     File.read!("inputs/day02.txt")
     |> String.split(",")
@@ -70,7 +70,6 @@ defmodule Days.Day02 do
               else
                 partial_sum
               end
-              
             end
           end
         )
