@@ -1,5 +1,5 @@
 defmodule Aoc25.Day05 do
-  def is_in_range?({l, r}, number), do: l <= number and number <= r
+  defp is_in_range?({l, r}, number), do: l <= number and number <= r
 
   def part1() do
     {ranges, availables} =
